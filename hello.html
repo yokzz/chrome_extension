@@ -1,6 +1,22 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://cdn.tiny.cloud/1/z3gn8rgbhgdj8w70oyg075lqj4cncdafqj8t5aiq4pwynuov/tinymce/8/tinymce.min.js" referrerpolicy="origin" crossorigin="anonymous"></script>
+    <script>
+      tinymce.init({
+        selector: 'div#editable'
+      });
+    </script>
+  </head>
+
   <body>
-    <h1>Text editor</h1>
-    <textarea></textarea>
+    <h1>TinyMCE Quick Start Guide</h1>
+    <form method="post">
+      <div id="editable">Hello, World!</div>
+    </form>
+    <script type="text/javascript" src="content.js"></script>
   </body>
 </html>
